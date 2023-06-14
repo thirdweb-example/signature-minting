@@ -22,3 +22,24 @@ body {
   color: #e7e8e8;
   background: #0f1318;
 }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.button {
+  background: #7dd3fc;
+  border: none;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #0f1318;
+  cursor: pointer;
+  margin-top: 10px;
+}

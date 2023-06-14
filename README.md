@@ -1,35 +1,35 @@
-## Getting Started
+# Signature Minting
 
-Create a project using this example:
+This repository looks at how you can authorize a user to mint in real time through your back-end infrastructure.
 
-```bash
-npx thirdweb create --template next-javascript-starter
-```
+> This repository is associated to a [guide on the thirdweb blog](https://blog.thirdweb.com/authorizing-nft-minting-through-a-backend).
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Setting up the project
 
-On `pages/_app.js`, you'll find our `ThirdwebProvider` wrapping your app, this is necessary for our [hooks](https://portal.thirdweb.com/react) and
-[UI Components](https://portal.thirdweb.com/ui-components) to work.
-
-### Deploy to IPFS
-
-Deploy a copy of your application to IPFS using the following command:
+Clone this repository and install the dependencies:
 
 ```bash
-yarn deploy
+# npm
+npm install
+
+# yarn
+yarn
 ```
 
-## Learn More
+Navigate to `const/yourDetails.js` and update the values with your own details.
 
-To learn more about thirdweb and Next.js, take a look at the following resources:
+Check out `.env.example` and create necessary environment variables in `.env.local`.
 
-- [thirdweb React Documentation](https://docs.thirdweb.com/react) - learn about our React SDK.
-- [thirdweb JavaScript Documentation](https://docs.thirdweb.com/react) - learn about our JavaScript/TypeScript SDK.
-- [thirdweb Portal](https://docs.thirdweb.com/react) - check our guides and development resources.
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+To run the development server, run the following command:
 
-You can check out [the thirdweb GitHub organization](https://github.com/thirdweb-dev) - your feedback and contributions are welcome!
+```bash
+# npm
+npm run dev
 
-## Join our Discord!
+# yarn
+yarn dev
+```
 
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
+## Conclusion
+
+If you have any questions, feel free to join our [Discord server](https://discord.gg/thirdweb) or create a ticket on our s[upport dashboard](https://support.thirdweb.com). If you have any feedback related to thirdweb, feel free to leave it in our [feedback board](https://feedback.thirdweb.com).
