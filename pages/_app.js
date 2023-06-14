@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <ThirdwebProvider
       activeChain={ACTIVE_CHAIN}
-      authConfig={{ domain: "thirdweb-example.com", authUrl: "/api/auth" }}
+      authConfig={{ domain: "thirdweb-preview.com", authUrl: "/api/auth" }}
     >
       <Component {...pageProps} />
     </ThirdwebProvider>
